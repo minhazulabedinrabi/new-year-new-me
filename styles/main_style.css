@@ -1,0 +1,266 @@
+* {
+    margin: 0px;
+    font-family: 'Work Sans';
+    font-family: 'Work Sans', sans-serif;
+}
+
+main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* header section */
+header {
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+
+
+}
+
+.banner {
+
+    text-align: right;
+    width: 1250px;
+    margin: 0 auto;
+    margin-bottom: 300px;
+}
+
+
+.banner-title {
+    font-size: 65px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: right;
+    margin: 0px 0px 24px 800px;
+    padding-top: 216px;
+}
+
+.banner-description {
+    text-align: right;
+    color: #ffffff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0px 0px 32px 600px;
+
+
+}
+
+.btn-primary {
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 0px;
+    padding: 22px;
+    margin-bottom: 146px;
+}
+
+/* main starts now */
+.my-failure {
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 84px;
+    margin-bottom: 150px;
+}
+
+#lady-image {
+    position: left bottom;
+}
+
+.about-failure {
+    margin: 200px 0 0 0;
+    width: 380px;
+}
+
+.failure-heading {
+    font-size: 40px;
+    color: #151414;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 24px;
+}
+/* Vector */
+
+.failure-description {
+
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400px;
+    font-style: normal;
+    margin-bottom: 16px;
+}
+
+.failure-topics {
+    display: block;
+    padding: 10px;
+}
+
+.about-failure li {
+    list-style-type: none;
+    display: block;
+    padding: 5px;
+    margin-top: 8px;
+
+}
+
+/* plan section  */
+.upgrade-plan {
+    margin-bottom: 130px;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 130px;
+}
+
+.plan-heading {
+    font-size: 40px;
+    color: #151414;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.plan {
+    margin: 10px;
+    text-align: center;
+}
+
+.skill-title {
+    font-size: 30px;
+    font-weight: 700px;
+    color: #151414;
+    font-style: normal;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.skill-description {
+    font-size: 25px;
+    font-weight: 500px;
+    color: #737272;
+}
+
+.image-container {
+    display: contents;
+    mix-blend-mode: lighten;
+    border-radius: 5px;
+    padding: 60px;
+}
+.image-container div{
+    display: block;
+    position: absolute;
+    padding: 60px;
+    padding-left: 65px;
+    width: 450px;
+}
+.image-container h2 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.gradient {
+    border: 0;
+    margin: 0 auto;
+    position: absolute;
+    mix-blend-mode:color;
+}
+.watch {
+    margin: 0 auto;
+}
+/* footer starts from here */
+footer {
+ 
+    background-color: #151414;
+    display: flex;
+    padding: 130px 230px;
+    justify-content: center;
+    gap: 400px;
+
+}
+
+.contact {
+    text-align: left;
+    display: block;
+    width: 500px;
+    margin-top: auto;
+}
+
+.future {
+    margin-bottom: 16px;
+    color: #f8f8f8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.contact-direction {
+    margin-bottom: 24px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.email {
+    margin-bottom: 16px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.phone {
+    margin-bottom: 32px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.social-media {
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+}
+
+.subscribe {
+    display: block;
+    margin-right: 0;
+}
+
+.subscribe h3 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 31px;
+}
+
+.subscribe input {
+    display: block;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: #151414;
+    margin-bottom: 16px;
+    padding: 20px;
+    color: #f3f3f3;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.btn-secondary {
+    border: 0;
+    border-radius: 8px;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #005fac;
+}
